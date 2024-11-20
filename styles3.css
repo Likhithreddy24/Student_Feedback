@@ -1,7 +1,7 @@
 /* General body styling */
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    background: linear-gradient(135deg, #0c357c, #6e7eff);
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -10,7 +10,7 @@ body {
 
 /* Dashboard container styling */
 .dashboard-container {
-    background: white;
+    background: rgb(152, 150, 150);
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
     padding: 20px;
@@ -21,32 +21,33 @@ body {
 }
 .dashboard-container h2 {
     text-align: center;
-    color: #333;
+    color: #000000;
     margin-bottom: 20px;
 }
 .student-details {
     font-size: 16px;
     line-height: 1.8;
-    color: #555;
+    color: #121111;
 }
 .student-details p {
     margin: 10px 0;
     padding: 10px;
     background: #f9f9f9;
     border-left: 4px solid #4caf50;
-    border-radius: 5px;
+    border-radius: 10px;
+    border: solid;
 }
 .student-details p strong {
-    color: #333;
+    color: #030202;
 }
 
 /* Footer styling */
 footer {
     margin-top: auto; /* Ensures the footer pushes to the bottom */
-    background-color: #f1f1f1;
+    
     padding: 10px 20px;
     text-align: center;
     font-size: 14px;
-    color: #666;
-    border-top: 1px solid #ddd;
+    color: #000000;
+    
 }
