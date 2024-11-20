@@ -3,12 +3,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
 }
 
 /* Body Styling */
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #4c70b0, #6e7eff); /* Gradient background */
+    background: linear-gradient(135deg, #0c357c, #6e7eff); /* Gradient background */
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -25,13 +26,16 @@ body {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     max-width: 400px;
     width: 100%;
-    text-align: center;
+    text-align: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
 }
 
 /* Title of the Login Form */
 .login-container h2 {
     font-size: 2.5rem;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     color: #3b5998; /* Set a bold color for the heading */
 }
 
