@@ -1,52 +1,85 @@
 /* General body styling */
 body {
-    font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0c357c, #6e7eff);;
     margin: 0;
+    padding: 0;
     display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 /* Dashboard container styling */
 .dashboard-container {
-    background: white;
+    background: #fff;
+    padding: 30px;
+    width: 80%;
+    max-width: 800px;
     border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    padding: 20px;
-    width: 90%;
-    max-width: 600px;
-    margin: auto;
-    text-align: left;
-}
-.dashboard-container h2 {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     text-align: center;
-    color: #333;
+}
+
+.dashboard-container h2 {
+    color: #4CAF50;
+    font-size: 2rem;
     margin-bottom: 20px;
 }
+
+/* Student details section */
 .student-details {
-    font-size: 16px;
-    line-height: 1.8;
-    color: #555;
+    margin-top: 30px;
+    text-align: left;
+    font-size: 1.2rem;
 }
+
+.student-details h3 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Information styling */
 .student-details p {
     margin: 10px 0;
-    padding: 10px;
-    background: #f9f9f9;
-    border-left: 4px solid #4caf50;
-    border-radius: 5px;
+    font-weight: bold;
+    color: #555;
 }
-.student-details p strong {
+
+.student-details span {
+    font-weight: normal;
     color: #333;
 }
 
 /* Footer styling */
 footer {
-    margin-top: auto; /* Ensures the footer pushes to the bottom */
-    background-color: #f1f1f1;
-    padding: 10px 20px;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
     text-align: center;
     font-size: 14px;
-    color: #666;
-    border-top: 1px solid #ddd;
+    color: #000000;
+}
+
+/* Adding responsive design */
+@media (max-width: 768px) {
+    .dashboard-container {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .student-details p {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .dashboard-container {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .student-details p {
+        font-size: 0.9rem;
+    }
 }
