@@ -1,0 +1,96 @@
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #4c70b0, #6e7eff); /* Gradient background */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+/* Login Form Container */
+.login-container {
+    background-color: rgba(255, 255, 255, 0.9); /* Transparent white background for the form */
+    padding: 40px 50px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Title of the Login Form */
+.login-container h2 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #3b5998; /* Set a bold color for the heading */
+}
+
+/* Input Fields Styling */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    outline: none;
+    background-color: #f4f4f4;
+    color: #333;
+    transition: border 0.3s ease;
+}
+
+/* Focus effect on input fields */
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border: 2px solid #3b5998;
+    background-color: #fff;
+}
+
+/* Submit Button Styling */
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2rem;
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Hover effect for submit button */
+button:hover {
+    background-color: #4c70b0;
+    transform: translateY(-5px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Error Message Styling */
+.error-message {
+    color: red;
+    margin-top: 15px;
+    font-size: 1rem;
+    display: none; /* Hide by default */
+}
+
+/* Footer Section for copyright */
+footer {
+    margin-top: auto; /* Ensures footer stays at the bottom */
+    font-size: 1rem;
+    color: #aaa;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
