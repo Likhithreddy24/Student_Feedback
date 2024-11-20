@@ -1,7 +1,7 @@
 /* Global Styles */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #f4f7fb;
+    background-color: linear-gradient(135deg, #0c357c, #6e7eff);;
     margin: 0;
     padding: 0;
 }
@@ -11,7 +11,7 @@ body {
     width: 90%;
     max-width: 1200px;
     margin: 30px auto;
-    background-color: #ffffff;
+    background-color: #cec9c9;
     padding: 40px;
     border-radius: 8px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
@@ -79,12 +79,13 @@ h3 {
 
 /* Footer Styling */
 footer {
+    margin-top: auto; /* Ensures the footer pushes to the bottom */
+    
+    padding: 10px 20px;
     text-align: center;
-    font-size: 12px;
-    color: #888;
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
+    font-size: 14px;
+    color: #000000;
+    
 }
 
 /* Responsive Design */
